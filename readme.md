@@ -1,4 +1,4 @@
-# AIML Crash Course - 45 Days Training
+ # 45 Days Training
 
 This repository contains Python practice tasks completed during my AI/ML crash course under a 45-day industrial training program.
 
