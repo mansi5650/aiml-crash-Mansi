@@ -1,4 +1,4 @@
- # 45 Days Training
+ # aiml-crash-Mansi
 
 This repository contains Python practice tasks completed during my AI/ML crash course under a 45-day industrial training program.
 
@@ -205,4 +205,4 @@ python intro.py
 
 **Mansi Pareek**
 
-AI/ML Crash Course Student
+aiml-Crash-Mansi 
