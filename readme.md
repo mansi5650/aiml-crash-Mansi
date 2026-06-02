@@ -1,4 +1,4 @@
- # aiml-crash-Mansi
+  # aiml-crash-Mansi
 
 This repository contains Python practice tasks completed during my AI/ML crash course under a 45-day industrial training program.
 
@@ -206,3 +206,121 @@ python intro.py
 **Mansi Pareek**
 
 aiml-Crash-Mansi 
+
+# 🐍 Day 5 Python Tasks
+
+This repository contains Python practice programs completed as part of Day 5 learning and internship tasks.
+
+## 📂 Files Included
+
+### 1. intro.py
+A basic Python introduction program demonstrating simple input, output, and variables.
+
+**Run:**
+```bash
+python intro.py
+```
+
+### 2. even_odd.py
+Checks whether a number entered by the user is even or odd.
+
+**Run:**
+```bash
+python even_odd.py
+```
+
+### 3. simple_calculator.py
+Performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+**Run:**
+```bash
+python simple_calculator.py
+```
+
+### 4. grade_classifier.py
+Classifies student grades based on marks entered by the user.
+
+**Run:**
+```bash
+python grade_classifier.py
+```
+
+### 5. guessing_game.py
+A number guessing game where the user tries to guess the correct number.
+
+**Run:**
+```bash
+python guessing_game.py
+```
+
+### 6. skills_counter.py
+Counts and displays skills entered by the user.
+
+**Run:**
+```bash
+python skills_counter.py
+```
+
+### 7. Tip_calculator.py
+Calculates the tip amount and total bill based on user input.
+
+**Run:**
+```bash
+python Tip_calculator.py
+```
+
+### 8. word_frequency.py
+Counts how many times each word appears in a given text.
+
+**Run:**
+```bash
+python word_frequency.py
+```
+
+---
+
+## 🚀 How to Run
+
+1. Make sure Python is installed.
+2. Clone this repository:
+
+```bash
+git clone <your-repository-link>
+```
+
+3. Open the project folder:
+
+```bash
+cd <repository-name>
+```
+
+4. Run any file:
+
+```bash
+python filename.py
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- VS Code
+- Git & GitHub
+
+---
+
+## 📖 Learning Outcomes
+
+- Variables and Data Types
+- Conditional Statements
+- Loops
+- Functions
+- Dictionaries
+- User Input Handling
+- Basic Problem Solving
+- File Organization with GitHub
+
+---
+
+### ⭐ Day 5 Completed Successfully
