@@ -1,203 +1,238 @@
-  # aiml-crash-Mansi
+# AIML Crash Course - Mansi Pareek
 
-This repository contains Python practice tasks completed during my AI/ML crash course under a 45-day industrial training program.
+## Python Practice Repository
 
----
+This repository contains my Python practice tasks and mini-projects completed as part of the AI/ML Crash Course. It includes hands-on work on Python fundamentals, NumPy, Pandas, CSV/JSON operations, file handling, object-oriented programming, and Git & GitHub workflow.
 
-# Python Practice Tasks
-
-## Q1 - Extended Intro
-
-Prints a personal introduction using Python basics.
-
-### Concepts Used
-
-* Variables
-* Dictionaries
-* f-strings
-* String methods
-
-### File
-
-`intro.py`
-
----
-
-## Q2 - Skills Counter
-
-Displays skills with numbering and total count.
-
-### Concepts Used
-
-* Lists
-* for loops
-* `enumerate()`
-* `len()`
-
-### File
-
-`skills_counter.py`
-
----
-
-## Q3 - Even or Odd Checker
-
-Checks whether a number is:
-
-* Even
-* Odd
-* Zero
-
-### Concepts Used
-
-* `if / elif / else`
-* Modulo operator (`%`)
-* User input
-* `try / except`
-
-### File
-
-`even_odd.py`
-
----
-
-## Q4 - Tip Calculator
-
-Calculates:
-
-* Tip amount
-* Total bill amount
-
-### Concepts Used
-
-* Functions
-* Parameters
-* Return values
-* Float calculations
-
-### File
-
-`Tip_calculator.py`
-
----
-
-## Q5 - Word Frequency Counter
-
-Counts how many times each word appears in a sentence.
-
-### Concepts Used
-
-* Strings
-* `split()`
-* Dictionaries
-* Loops
-
-### File
-
-`word_frequency.py`
-
----
-
-## Q6 - Simple Calculator
-
-Performs:
-
-* Addition
-* Subtraction
-* Multiplication
-* Division
-
-### Concepts Used
-
-* Functions
-* User input
-* Conditional statements
-* Division by zero handling
-
-### File
-
-`simple calculator.py`
-
----
-
-## Q7 - Grade Classifier
-
-Classifies student grades based on scores.
-
-### Concepts Used
-
-* Lists of dictionaries
-* Functions
-* Conditional statements
-* Sorting with `lambda`
-
-### File
-
-`grade classifier.py`
-
----
-
-## Q8 - Number Guessing Game
-
-A simple number guessing game where:
-
-* Computer selects a random number
-* User keeps guessing
-* Program gives hints
-
-### Concepts Used
-
-* `while` loops
-* `random` module
-* Game logic
-* Conditional statements
-
-### File
-
-`guessing_game.py`
-
----
-
-# Project Structure
-
-```bash
-├── intro.py
-├── skills_counter.py
-├── even_odd.py
-├── Tip_calculator.py
-├── word_frequency.py
-├── simple calculator.py
-├── grade classifier.py
-├── guessing_game.py
-├── .gitignore
-└── readme.md
-```
-
----
-
-# How to Run
-
-1. Open the project folder in VS Code
-2. Open Terminal
-3. Run any Python file using:
-
-```bash
-python filename.py
-```
-
-### Example
-
-```bash
-python intro.py
-```
+Each task is organized into separate Python files with clean structure and comments for better understanding and learning.
 
 ---
 
 # Technologies Used
 
 * Python 3
-* VS Code
+* NumPy
+* Pandas
+* CSV Module
+* JSON Module
+* Object-Oriented Programming (OOP)
+* File Handling
 * Git & GitHub
+
+---
+
+# Project Structure
+
+```text
+aiml-crash-Mansi/
+
+├── student_profile.py
+├── student_report.py
+├── comprehension_drills.py
+├── inventory.py
+├── library_system.py
+├── typed_calculator.py
+├── config_manager.py
+├── fraction_class.py
+├── file_records.py
+├── json_report.py
+├── insights.py
+│
+├── numpy_practice.py
+├── numpy_similarity.py
+│
+├── pandas_explore.py
+├── column_selection_filtering.py
+├── loc_vs_iloc.py
+├── task6_missing_values.py
+│
+├── students.csv
+├── student_analysis.csv
+├── employes.csv
+├── employees_missing.csv
+├── studentss.csv
+├── data.json
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+# Python Fundamentals & OOP Tasks
+
+## 1. student_profile.py
+
+Created a student profile card using variables, dictionaries, functions, type hints, and f-strings.
+
+## 2. student_report.py
+
+Built a student report system to calculate averages, grades, and generate formatted reports.
+
+## 3. comprehension_drills.py
+
+Solved multiple list, dictionary, and set comprehension exercises to improve Python problem-solving skills.
+
+## 4. typed_calculator.py
+
+Implemented a calculator using functions, type hints, and proper error handling.
+
+## 5. library_system.py
+
+Created a mini library management system using classes, inheritance, and polymorphism.
+
+## 6. inventory.py
+
+Developed an inventory management system using OOP concepts and file handling.
+
+## 7. config_manager.py
+
+Created a configuration manager to load, save, and update JSON configuration files.
+
+## 8. fraction_class.py
+
+Implemented a custom Fraction class supporting arithmetic operations and comparisons using dunder methods.
+
+## 9. file_records.py
+
+Worked with CSV files to store, update, and process student records.
+
+---
+
+# JSON Tasks
+
+## 10. json_report.py
+
+Read and processed JSON data to generate reports and summaries.
+
+### Generated Files
+
+* data.json
+
+---
+
+# NumPy Tasks
+
+## 11. numpy_practice.py
+
+Practiced NumPy array creation, indexing, slicing, reshaping, aggregation, and mathematical operations.
+
+## 12. numpy_similarity.py
+
+Implemented:
+
+* Boolean Masking
+* Broadcasting
+* Cosine Similarity using NumPy
+
+---
+
+# Pandas Tasks
+
+## 13. pandas_explore.py
+
+Explored DataFrame creation, column selection, sorting, filtering, grouping, and aggregation.
+
+## 14. column_selection_filtering.py
+
+Selected specific columns and applied boolean filtering using multiple conditions.
+
+### Dataset Used
+
+* students.csv
+
+## 15. loc_vs_iloc.py
+
+Compared label-based indexing using `.loc` and position-based indexing using `.iloc`.
+
+### Dataset Used
+
+* employes.csv
+
+## 16. task6_missing_values.py
+
+Handled missing values using Pandas techniques such as:
+
+* isnull()
+* fillna()
+* dropna()
+
+### Dataset Used
+
+* employees_missing.csv
+
+---
+
+# Analysis & Insights
+
+## 17. insights.py
+
+Generated useful summaries and insights from structured datasets.
+
+## 18. student_analysis.csv
+
+Dataset used for data analysis and Pandas operations.
+
+---
+
+# How to Run the Project
+
+## 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+## 2. Open the Project Folder
+
+```bash
+cd aiml-crash-Mansi
+```
+
+## 3. Install Required Packages
+
+```bash
+pip install pandas numpy
+```
+
+## 4. Run Any Python File
+
+Example:
+
+```bash
+python pandas_explore.py
+```
+
+You can also run:
+
+```bash
+python inventory.py
+python library_system.py
+python numpy_similarity.py
+python loc_vs_iloc.py
+```
+
+---
+
+# What I Learned
+
+Through these tasks, I practiced:
+
+* Python Fundamentals
+* Functions and Type Hints
+* Lists, Dictionaries, and Sets
+* Object-Oriented Programming
+* File Handling
+* CSV Operations
+* JSON Processing
+* NumPy Arrays and Operations
+* Pandas Data Analysis
+* Data Cleaning
+* Boolean Filtering
+* .loc and .iloc Indexing
+* Missing Value Handling
+* Git & GitHub Workflow
+* Project Structuring
 
 ---
 
@@ -205,122 +240,7 @@ python intro.py
 
 **Mansi Pareek**
 
-aiml-Crash-Mansi 
 
-# 🐍 Day 5 Python Tasks
-
-This repository contains Python practice programs completed as part of Day 5 learning and internship tasks.
-
-## 📂 Files Included
-
-### 1. intro.py
-A basic Python introduction program demonstrating simple input, output, and variables.
-
-**Run:**
-```bash
-python intro.py
-```
-
-### 2. even_odd.py
-Checks whether a number entered by the user is even or odd.
-
-**Run:**
-```bash
-python even_odd.py
-```
-
-### 3. simple_calculator.py
-Performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
-
-**Run:**
-```bash
-python simple_calculator.py
-```
-
-### 4. grade_classifier.py
-Classifies student grades based on marks entered by the user.
-
-**Run:**
-```bash
-python grade_classifier.py
-```
-
-### 5. guessing_game.py
-A number guessing game where the user tries to guess the correct number.
-
-**Run:**
-```bash
-python guessing_game.py
-```
-
-### 6. skills_counter.py
-Counts and displays skills entered by the user.
-
-**Run:**
-```bash
-python skills_counter.py
-```
-
-### 7. Tip_calculator.py
-Calculates the tip amount and total bill based on user input.
-
-**Run:**
-```bash
-python Tip_calculator.py
-```
-
-### 8. word_frequency.py
-Counts how many times each word appears in a given text.
-
-**Run:**
-```bash
-python word_frequency.py
-```
 
 ---
 
-## 🚀 How to Run
-
-1. Make sure Python is installed.
-2. Clone this repository:
-
-```bash
-git clone <your-repository-link>
-```
-
-3. Open the project folder:
-
-```bash
-cd <repository-name>
-```
-
-4. Run any file:
-
-```bash
-python filename.py
-```
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- VS Code
-- Git & GitHub
-
----
-
-## 📖 Learning Outcomes
-
-- Variables and Data Types
-- Conditional Statements
-- Loops
-- Functions
-- Dictionaries
-- User Input Handling
-- Basic Problem Solving
-- File Organization with GitHub
-
----
-
-### ⭐ Day 5 Completed Successfully
