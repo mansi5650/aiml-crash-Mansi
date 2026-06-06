@@ -236,6 +236,69 @@ Through these tasks, I practiced:
 
 ---
 
+# 📊 Advanced Pandas, Visualization & SQL Analysis
+
+## Project Overview
+
+This project demonstrates data analysis using **Pandas**, **Matplotlib**, **Seaborn**, and **SQLite** with three related datasets:
+- customers.csv
+- orders.csv
+- products.csv
+
+## Features
+
+- Data auditing and cleaning
+- GroupBy analysis
+- Multi-level GroupBy
+- Table merging and business metrics
+- Pivot table analysis
+- Data visualization
+- Chart-based business insights
+- SQLite database creation
+- SQL query execution
+- Pandas vs SQL comparison
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- SQLite3
+
+## Tasks Completed
+
+- ✔ Data Quality Audit
+- ✔ Data Cleaning
+- ✔ Sales Analysis using GroupBy
+- ✔ Multi-Level GroupBy
+- ✔ Merge Related Tables
+- ✔ Calculate Revenue Metrics
+- ✔ Create Pivot Tables
+- ✔ Build Six Visualizations
+- ✔ Generate Business Insights
+- ✔ Create SQLite Database
+- ✔ Execute 15 SQL Queries
+- ✔ Compare Pandas and SQL Results
+
+## Run the Project
+
+```bash
+pip install pandas matplotlib seaborn
+python advancedpandas_task1.py
+```
+
+## Output
+
+The project generates:
+- Sales summaries
+- Pivot tables
+- Six charts
+- SQL query results
+- Pandas vs SQL comparison
+
+---
+
 # Author
 
 **Mansi Pareek**
