@@ -1,307 +1,294 @@
-# AIML Crash Course - Mansi Pareek
+# 🚀 AIML Crash Course Internship – Tasks & Final Project
 
-## Python Practice Repository
-
-This repository contains my Python practice tasks and mini-projects completed as part of the AI/ML Crash Course. It includes hands-on work on Python fundamentals, NumPy, Pandas, CSV/JSON operations, file handling, object-oriented programming, and Git & GitHub workflow.
-
-Each task is organized into separate Python files with clean structure and comments for better understanding and learning.
+Welcome to my **AIML Crash Course Internship Repository**. This repository contains all the tasks completed during my internship, along with the final project demonstrating the practical application of Artificial Intelligence and Machine Learning concepts.
 
 ---
 
-# Technologies Used
+## 👩‍💻 About Me
 
-* Python 3
-* NumPy
-* Pandas
-* CSV Module
-* JSON Module
-* Object-Oriented Programming (OOP)
-* File Handling
-* Git & GitHub
+**Name:** Mansi Pareek  
+**Course:** B.Tech Computer Science Engineering  
+**Internship:** AIML Crash Course Internship
+
+Throughout this internship, I gained hands-on experience in Python programming, data analysis, machine learning, and Retrieval-Augmented Generation (RAG) using Large Language Models.
 
 ---
 
-# Project Structure
+# 📂 Repository Structure
 
-```text
-aiml-crash-Mansi/
-
-├── student_profile.py
-├── student_report.py
-├── comprehension_drills.py
-├── inventory.py
-├── library_system.py
-├── typed_calculator.py
-├── config_manager.py
-├── fraction_class.py
-├── file_records.py
-├── json_report.py
-├── insights.py
+```
+AIML-CRASH-MANSI
 │
-├── numpy_practice.py
-├── numpy_similarity.py
+├── 01_EDA.ipynb
+├── 02_SQL.ipynb
+├── 03_Classification.ipynb
+├── 04_XGBoost.ipynb
+├── 05_Model_Interpretation.ipynb
 │
-├── pandas_explore.py
-├── column_selection_filtering.py
-├── loc_vs_iloc.py
-├── task6_missing_values.py
+├── Python Scripts
+│   ├── simple_calculator.py
+│   ├── pandas_explore.py
+│   ├── advancedpandas_task1.py
+│   ├── comprehension_drills.py
+│   └── ...
 │
-├── students.csv
-├── student_analysis.csv
-├── employes.csv
-├── employees_missing.csv
-├── studentss.csv
-├── data.json
+├── aiml_final_project
+│   ├── AIML_final_project.ipynb
+│   ├── requirements.txt
+│   └── RAG_Project_Starter_Kit
 │
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
 
-# Python Fundamentals & OOP Tasks
+# 📚 Internship Tasks
 
-## 1. student_profile.py
+## ✅ Task 1 – Python Programming
 
-Created a student profile card using variables, dictionaries, functions, type hints, and f-strings.
-
-## 2. student_report.py
-
-Built a student report system to calculate averages, grades, and generate formatted reports.
-
-## 3. comprehension_drills.py
-
-Solved multiple list, dictionary, and set comprehension exercises to improve Python problem-solving skills.
-
-## 4. typed_calculator.py
-
-Implemented a calculator using functions, type hints, and proper error handling.
-
-## 5. library_system.py
-
-Created a mini library management system using classes, inheritance, and polymorphism.
-
-## 6. inventory.py
-
-Developed an inventory management system using OOP concepts and file handling.
-
-## 7. config_manager.py
-
-Created a configuration manager to load, save, and update JSON configuration files.
-
-## 8. fraction_class.py
-
-Implemented a custom Fraction class supporting arithmetic operations and comparisons using dunder methods.
-
-## 9. file_records.py
-
-Worked with CSV files to store, update, and process student records.
+- Variables and Data Types
+- Operators
+- Conditional Statements
+- Loops
+- Functions
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+- File Handling
+- Exception Handling
 
 ---
 
-# JSON Tasks
+## ✅ Task 2 – Exploratory Data Analysis (EDA)
 
-## 10. json_report.py
+Performed data analysis using:
 
-Read and processed JSON data to generate reports and summaries.
+- Pandas
+- NumPy
+- Matplotlib
 
-### Generated Files
+Topics covered:
 
-* data.json
-
----
-
-# NumPy Tasks
-
-## 11. numpy_practice.py
-
-Practiced NumPy array creation, indexing, slicing, reshaping, aggregation, and mathematical operations.
-
-## 12. numpy_similarity.py
-
-Implemented:
-
-* Boolean Masking
-* Broadcasting
-* Cosine Similarity using NumPy
+- Data Cleaning
+- Missing Value Handling
+- Data Visualization
+- Statistical Analysis
+- Feature Exploration
 
 ---
 
-# Pandas Tasks
+## ✅ Task 3 – SQL
 
-## 13. pandas_explore.py
+Practiced SQL concepts including:
 
-Explored DataFrame creation, column selection, sorting, filtering, grouping, and aggregation.
-
-## 14. column_selection_filtering.py
-
-Selected specific columns and applied boolean filtering using multiple conditions.
-
-### Dataset Used
-
-* students.csv
-
-## 15. loc_vs_iloc.py
-
-Compared label-based indexing using `.loc` and position-based indexing using `.iloc`.
-
-### Dataset Used
-
-* employes.csv
-
-## 16. task6_missing_values.py
-
-Handled missing values using Pandas techniques such as:
-
-* isnull()
-* fillna()
-* dropna()
-
-### Dataset Used
-
-* employees_missing.csv
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- Aggregate Functions
+- JOIN Operations
+- Database Queries
 
 ---
 
-# Analysis & Insights
+## ✅ Task 4 – Machine Learning Classification
 
-## 17. insights.py
+Implemented classification algorithms and learned:
 
-Generated useful summaries and insights from structured datasets.
-
-## 18. student_analysis.csv
-
-Dataset used for data analysis and Pandas operations.
-
----
-
-# How to Run the Project
-
-## 1. Clone the Repository
-
-```bash
-git clone <repository-url>
-```
-
-## 2. Open the Project Folder
-
-```bash
-cd aiml-crash-Mansi
-```
-
-## 3. Install Required Packages
-
-```bash
-pip install pandas numpy
-```
-
-## 4. Run Any Python File
-
-Example:
-
-```bash
-python pandas_explore.py
-```
-
-You can also run:
-
-```bash
-python inventory.py
-python library_system.py
-python numpy_similarity.py
-python loc_vs_iloc.py
-```
+- Data Preprocessing
+- Feature Selection
+- Model Training
+- Model Evaluation
+- Performance Metrics
 
 ---
 
-# What I Learned
+## ✅ Task 5 – XGBoost
 
-Through these tasks, I practiced:
+Implemented the XGBoost algorithm for predictive modeling.
 
-* Python Fundamentals
-* Functions and Type Hints
-* Lists, Dictionaries, and Sets
-* Object-Oriented Programming
-* File Handling
-* CSV Operations
-* JSON Processing
-* NumPy Arrays and Operations
-* Pandas Data Analysis
-* Data Cleaning
-* Boolean Filtering
-* .loc and .iloc Indexing
-* Missing Value Handling
-* Git & GitHub Workflow
-* Project Structuring
+Topics covered:
+
+- Gradient Boosting
+- Hyperparameter Tuning
+- Model Evaluation
+- Prediction Analysis
 
 ---
 
-# 📊 Advanced Pandas, Visualization & SQL Analysis
+## ✅ Task 6 – Model Interpretation
 
-## Project Overview
+Learned techniques for interpreting Machine Learning models including:
 
-This project demonstrates data analysis using **Pandas**, **Matplotlib**, **Seaborn**, and **SQLite** with three related datasets:
-- customers.csv
-- orders.csv
-- products.csv
+- Feature Importance
+- Prediction Analysis
+- Model Explainability
 
-## Features
+---
 
-- Data auditing and cleaning
-- GroupBy analysis
-- Multi-level GroupBy
-- Table merging and business metrics
-- Pivot table analysis
-- Data visualization
-- Chart-based business insights
-- SQLite database creation
-- SQL query execution
-- Pandas vs SQL comparison
+# 🌟 Final Project
 
-## Technologies Used
+## AI-Powered RAG Chatbot using Gemini & LangChain
+
+The final project is a Retrieval-Augmented Generation (RAG) chatbot capable of answering questions from a custom knowledge base.
+
+### Features
+
+- Document Loading
+- Text Chunking
+- Embedding Generation
+- Vector Database using FAISS
+- Semantic Search
+- Retrieval-Augmented Generation (RAG)
+- Gemini 2.5 Flash Integration
+- Context-Aware Question Answering
+
+---
+
+# 🛠 Technologies Used
+
+### Programming
 
 - Python
+
+### Data Analysis
+
 - Pandas
+- NumPy
 - Matplotlib
-- Seaborn
-- SQLite3
 
-## Tasks Completed
+### Machine Learning
 
-- ✔ Data Quality Audit
-- ✔ Data Cleaning
-- ✔ Sales Analysis using GroupBy
-- ✔ Multi-Level GroupBy
-- ✔ Merge Related Tables
-- ✔ Calculate Revenue Metrics
-- ✔ Create Pivot Tables
-- ✔ Build Six Visualizations
-- ✔ Generate Business Insights
-- ✔ Create SQLite Database
-- ✔ Execute 15 SQL Queries
-- ✔ Compare Pandas and SQL Results
+- Scikit-learn
+- XGBoost
 
-## Run the Project
+### AI & LLM
 
-```bash
-pip install pandas matplotlib seaborn
-python advancedpandas_task1.py
-```
+- LangChain
+- Google Gemini 2.5 Flash
+- Hugging Face Embeddings
+- FAISS
 
-## Output
+### Development Tools
 
-The project generates:
-- Sales summaries
-- Pivot tables
-- Six charts
-- SQL query results
-- Pandas vs SQL comparison
+- Jupyter Notebook
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
-# Author
+# 📦 Python Libraries
+
+Some of the important libraries used are:
+
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- xgboost
+- langchain
+- langchain-google-genai
+- sentence-transformers
+- faiss-cpu
+
+For all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Running the Final Project
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/mansi5650/aiml-crash-Mansi.git
+```
+
+2. Navigate to the project
+
+```bash
+cd aiml_final_project
+```
+
+3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Add your Google Gemini API Key
+
+```python
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
+```
+
+5. Run the notebook
+
+```
+AIML_final_project.ipynb
+```
+
+---
+
+# 📖 Skills Gained
+
+During this internship, I developed practical skills in:
+
+- Python Programming
+- Data Analysis
+- Data Visualization
+- SQL
+- Machine Learning
+- XGBoost
+- Feature Engineering
+- Model Evaluation
+- LangChain
+- Retrieval-Augmented Generation (RAG)
+- Large Language Models (LLMs)
+- Vector Databases (FAISS)
+- Git & GitHub
+
+---
+
+# 🎯 Learning Outcomes
+
+This internship helped me:
+
+- Strengthen Python programming skills.
+- Understand the complete Machine Learning workflow.
+- Work with real-world datasets.
+- Build an AI-powered RAG chatbot.
+- Learn version control using Git and GitHub.
+- Improve problem-solving and debugging skills.
+
+---
+
+# 📌 Future Improvements
+
+- Deploy the chatbot using Streamlit or Gradio.
+- Add conversational memory.
+- Improve chatbot UI.
+- Support PDF uploads by users.
+- Deploy the project on the cloud.
+
+---
+
+#  Acknowledgements
+
+I sincerely thank my mentors and the AIML Crash Course Internship team for providing valuable learning opportunities and practical assignments throughout the internship.
+
+---
+
+# 👩‍💻 Author
 
 **Mansi Pareek**
+
+B.Tech – Computer Science Engineering
 
 
 
